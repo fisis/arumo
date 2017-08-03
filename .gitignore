@@ -26,4 +26,5 @@
 !scripts/*.png
 
 !bin/
+!bin/.empty
 
