@@ -1,0 +1,27 @@
+# Ignore everything:
+*
+
+# Except for the following:
+# ========================
+
+# core files
+# ----------
+
+!/.gitignore
+!/README.md
+!/makefile
+!/LICENSE
+!/mocap.sh
+
+!config.d/
+!config.d/marker_detector_params_default.yml
+
+!src/
+!src/*.cpp
+!src/utils
+!src/utils/*.hpp
+
+!scripts/
+!scripts/*.sh
+!scripts/*.png
+
