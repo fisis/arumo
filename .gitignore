@@ -25,3 +25,5 @@
 !scripts/*.sh
 !scripts/*.png
 
+!bin/
+

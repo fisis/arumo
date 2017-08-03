@@ -39,10 +39,6 @@ track_params="-d=$aruco_detection_dict -l=$marker_edgelen_m -mposeage=1.0"
 
 # ==============================================
 
-mkdir -p bin
-
-# ==============================================
-
 printf "Choose an action from below:
     
     (1) Create calibration board.
