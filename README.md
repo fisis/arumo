@@ -33,8 +33,8 @@ Scripts for setting up a motion capture system using overhead cameras.
 Installation, Compilation and Running:
 --------------------------------------
 
-_Installation of OpenCV with contrib-modules (including ArUco):_
-You need to install OpenCv v3.x with contrib modules v3.x in order to use this program. Please follow the instructions here: http://docs.opencv.org/trunk/d7/d9f/tutorial_linux_install.html . It is suggested that you use `/usr/local` as `CMAKE_INSTALL_PREFIX`. The following sequence of commands will install OpenCv 3.2.0:
+__Installation of OpenCV with contrib-modules (including ArUco):__
+You need to install OpenCv v3.x with contrib modules v3.x in order to use this program. Please follow the instructions here: http://docs.opencv.org/trunk/d7/d9f/tutorial_linux_install.html . It is suggested that you use `/usr/local` as `CMAKE_INSTALL_PREFIX`. The following sequence of commands will install OpenCv 3.2.0 with contrib modules:
 ```
 sudo apt-get install build-essential
 sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
@@ -60,9 +60,9 @@ sudo make install
 ```
 
 
-_Compilation:_ Run `make all`. This will create the executables in the 'bin' folder.
+__Compilation:__ Run `make all`. This will create the executables in the 'bin' folder.
 
-_Execution:_ Run the shell script `./mocap.sh`.
+__Execution:__ Run the shell script `./mocap.sh`.
 
 *******************************************************************************
 
